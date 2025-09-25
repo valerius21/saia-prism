@@ -8,13 +8,14 @@ enum Provider: string
 {
     case Anthropic = 'anthropic';
     case DeepSeek = 'deepseek';
+    case ElevenLabs = 'elevenlabs';
+    case Gemini = 'gemini';
+    case Groq = 'groq';
+    case Mistral = 'mistral';
     case Ollama = 'ollama';
     case OpenAI = 'openai';
     case OpenRouter = 'openrouter';
-    case Mistral = 'mistral';
-    case Groq = 'groq';
-    case XAI = 'xai';
-    case Gemini = 'gemini';
+    case SAIA = 'saia';
     case VoyageAI = 'voyageai';
-    case ElevenLabs = 'elevenlabs';
+    case XAI = 'xai';
 }

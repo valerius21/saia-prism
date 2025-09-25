@@ -55,5 +55,9 @@ return [
             'api_key' => env('OPENROUTER_API_KEY', ''),
             'url' => env('OPENROUTER_URL', 'https://openrouter.ai/api/v1'),
         ],
+        'saia' => [
+            'api_key' => env('SAIA_API_KEY', ''),
+            'url' => env('SAIA_URL', 'https://chat-ai.academiccloud.de/v1'),
+        ]
     ],
 ];

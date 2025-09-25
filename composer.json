@@ -15,10 +15,14 @@
     {
       "name": "TJ Miller",
       "email": "hello@echolabs.dev"
+    },
+    {
+      "name": "Valerius Mattfeld",
+      "email": "git@valerius.me"
     }
   ],
   "require": {
-    "php": "^8.2",
+    "php": "^8.3",
     "ext-fileinfo": "*",
     "laravel/framework": "^11.0|^12.0"
   },
